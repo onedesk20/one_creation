@@ -7,7 +7,7 @@ const CarouselWork = ({images, path}) => {
       {images.map((img, i) => {
         return (
           <Carousel.Item className="image-work" key={i} interval={3000}>
-            <Image className="image-work" src={`src/assets/${path}/${img}.png`}/>
+            <Image className="image-work" src={`/one_creation/assets/${path}/${img}.png`}/>
           </Carousel.Item>
         )
       })}

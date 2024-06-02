@@ -6,7 +6,7 @@ const Header = () => {
     <>
     <header className='header-one'>
       <div className="header-one-content">
-         <img src="src/assets/one_creation.svg" className="logotipo" alt="logotipo one creation" />
+         <img src="/one_creation/assets/one_creation.svg" className="logotipo" alt="logotipo one creation" />
       </div> 
     </header>
     </>

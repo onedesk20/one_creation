@@ -29,7 +29,7 @@ body{
   content: "";
   position: absolute;
   inset: 0;
-  background: url("../assets/bg_header.png");
+  background: url("/one_creation/assets/bg_header.png");
   background-size: cover;
   background-position: top;
   z-index: -2;

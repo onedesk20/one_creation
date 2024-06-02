@@ -18,7 +18,7 @@ const Works = () => {
             </div>
             <div>
               {work.images.length > 1 && <CarouselWork images={work.images} path={work.path}/>}
-              {work.images.length == 1 && <Image className="image-work" src={`src/assets/${work.path}/${work.images[0]}.png`} />}
+              {work.images.length == 1 && <Image className="image-work" src={`/one_creation/assets/${work.path}/${work.images[0]}.png`} />}
               
             </div>
           </section>
